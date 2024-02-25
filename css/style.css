@@ -1,0 +1,31 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Dancing+Script:wght@700&family=Open+Sans:wght@300&family=Poppins&display=swap');
+
+/* Setting font styles for labels, paragraphs, and buttons */
+label, p, button {
+    font-family: 'Dancing Script', sans-serif; /* Using Dancing Script font for labels, paragraphs, and buttons */
+    font-size: 20px; /* Setting font size to 20 pixels */
+}
+
+/* Styling for the image container */
+.image-container {
+    display: flex; /* Using flexbox to arrange child elements */
+}
+
+/* Styling for images within the image container */
+.image-container img {
+    height: 25vh; /* Setting height of images relative to the viewport height */
+    margin: 7px; /* Adding margin around each image */
+}
+
+/* Styling for elements with class "custColor" */
+.custColor {
+    margin-top: 1%; /* Adding top margin */
+    padding: 10px; /* Adding padding */
+}
+
+/* Styling for elements with class "randColor" */
+.randColor {
+    margin-bottom: 1%; /* Adding bottom margin */
+    padding: 10px; /* Adding padding */
+}
